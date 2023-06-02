@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Teko:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+
+body{
+    background-image: url(https://i.postimg.cc/pr06F0Yh/alex-kramarevsky-Syxb1km-Nb-DU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#cont{
+    border: 3px solid white;
+    background-color: white;
+    width: fit-content;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Teko', sans-serif;
+    border-radius: 10px;
+    margin-left: 27rem;
+    margin-top: 9rem;
+    padding: 1rem;
+}
+
+input{
+    border-radius: 5px;
+}
+
+button{
+    border-radius: 5px;
+}
+
+button :hover{
+    background-color: black;
+    color: white;
+}
+
+
